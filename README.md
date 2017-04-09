@@ -72,6 +72,12 @@ $("#div-id").timer('remove');  //leaves the display intact
 
 //get elapsed time in seconds
 $("#div-id").data('seconds');
+
+//get state of a timer
+$("#div-id").data('state');
+
+//reset an existing timer
+$("#div-id").data('reset');
 ```
 
 
